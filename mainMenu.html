@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WELCOME HOME!</title>
+    <link rel="stylesheet" href="styleing.css">
+</head>
+
+<body>
+    <header>
+        <table border="1" style="width:700px;" align="center">
+            <tr>
+                <td align="center" colspan="3" bgcolor="white">
+                    <font color="black" size="20 px">
+                        <b>BIODATA : </b>
+                    </font>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="5" width="100px">
+                    <img src="noname.png" width="100px">
+                </td>
+                <td bgcolor="#ffffff">NAMA</td>
+                <td bgcolor="#ffffff">Adhiel Asiabel</td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffff">UMUR</td>
+                <td bgcolor="#ffffff">19 Tahun</td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffff">ALAMAT</td>
+                <td bgcolor="#ffffff">Sleman, Yogyakarta</td>
+            </tr>
+            <tr>
+                <td bgcolor="#ffffff">HOBI</td>
+                <td bgcolor="#ffffff">Memasak dan Mendengarkan Musik</td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2" bgcolor="white">
+                    <li><a href="http://instagram.com/vincentiusadhiel_">Link Instagram Saya (1) </a></li>
+                    <li><a href="http://instagram.com/0abelabelabel0">Link Instagram Saya (2)</a></li>
+                    <li><a href="http://youtube.com/@adhielasiabel4008">Link Youtube Saya</a></li>
+                </td>
+            </tr>
+        </table>
+        <marquee direction="left">
+            <font color="white">Semoga Sehat Selalu, dan dilindungi Tuhan Yang Maha Esa</font>
+        </marquee>
+    </header>
+    <center><h1 id="judul">SILAHKAN MASUKKAN DENGAN BENAR, YAA!</h1></center>
+    <div id="form1">
+        <div id="nama">
+            <label for="Nama">Nama: </label>
+            <input type="text" id="Nama">
+        </div>
+        <div id="jumlah">
+            <label for="Jumlah">Jumlah: </label>
+            <input type="text" id="Jumlah">
+        </div>
+        <button id="Button1" onclick="kirim()">NEXT</button>
+    </div>
+
+    <div id="form2">
+        <div id="formPilihan"></div>
+        <button id="tombolPilihan" style="display: none">NEXT</button>
+        <br />
+        <form></form>
+    </div>
+
+    <div id="form3">
+        <button id="tombolSubmit" onclick="tampilkanData()" style="display: none">PRINT</button>
+        <div id="output">
+            <p id="tampilan"></p>
+        </div>
+    </div>
+    <script type="text/javascript" src="styleing.js"></script>
+</body>
+
+</html>
